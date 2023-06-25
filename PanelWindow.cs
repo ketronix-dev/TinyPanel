@@ -7,15 +7,18 @@
 //      You can make changes to this file and they will not be overwritten when saving.
 //  </auto-generated>
 // -----------------------------------------------------------------------------
-namespace TinyPanel{
+namespace TinyPanel
+{
     using Terminal.Gui;
-    
-    
-    public partial class MyView {
-        
-        public MyView() {
+
+
+    public partial class MyView
+    {
+
+        public MyView()
+        {
             InitializeComponent();
-            button1.Clicked += () => MessageBox.Query("Hello", "Hello There!", "Ok");
+            startOrStopButton.Clicked += () => MessageBox.Query("Hello", "Hello There!", "Ok");
         }
     }
 }
